@@ -21,6 +21,11 @@ let swiperProducts = new Swiper('.products__container', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+        1024: {
+            spaceBetween: 72
+        }
+    }
 });
 
 
